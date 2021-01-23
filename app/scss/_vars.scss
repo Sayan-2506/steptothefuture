@@ -17,3 +17,16 @@
     font-family: 'SFProDisplay-Bold', sans-serif;
     font-weight: 700;
 }
+
+@mixin B-Bold {
+    font-family: 'Barlow-Bold', sans-serif;
+    font-weight: 700;
+}
+
+@mixin B-Regular {
+    font-family: 'Barlow-Regular', sans-serif;
+    font-weight: 400;
+}
+
+$blue: #1C62CD;
+$text: #2F3035;
